@@ -1,0 +1,7 @@
+cp -fr ./hypr/ ~/.config/hypr/
+cp -fr ./waybar/ ~/.config/waybar/
+cp -fr ./wofi/ ~/.config/wofi/
+cp -fr ./nvim/ ~/.config/nvim/
+cp -fr ./kitty/ ~/.config/kitty/
+sudo cp -fr configuration.nix /etc/nixos/configuration.nix
+sudo nixos-rebuild switch

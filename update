@@ -1,0 +1,6 @@
+cp -fr /etc/nixos/configuration.nix .
+cp -fr ~/.config/hypr/ .
+cp -fr ~/.config/waybar/ .
+cp -fr ~/.config/wofi/ .
+cp -fr ~/.config/nvim/ .
+cp -fr ~/.config/kitty/ .
