@@ -77,6 +77,7 @@
     ninja
     pamixer
     feh
+    unzip
     waybar
     wofi
     wget
@@ -92,6 +93,9 @@
     spotify
     obsidian
     gimp
+    flutter
+    beeper
+    floorp
   ];
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"
